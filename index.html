@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Frontend Compiler</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="compiler-container">
+    <header class="compiler-header">
+      <h1>Code Compiler</h1>
+      <p>Write and test HTML, CSS, and JavaScript seamlessly.</p>
+    </header>
+    <main class="editor-section">
+      <div class="editor">
+        <label for="html-code" class="editor-label">HTML</label>
+        <textarea id="html-code" class="editor-input" placeholder="Write your HTML here..."></textarea>
+      </div>
+      <div class="editor">
+        <label for="css-code" class="editor-label">CSS</label>
+        <textarea id="css-code" class="editor-input" placeholder="Write your CSS here..."></textarea>
+      </div>
+      <div class="editor">
+        <label for="js-code" class="editor-label">JavaScript</label>
+        <textarea id="js-code" class="editor-input" placeholder="Write your JavaScript here..."></textarea>
+      </div>
+    </main>
+    <button id="run-code" class="run-btn">Run Code</button>
+    <iframe id="output" class="output-frame"></iframe>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
